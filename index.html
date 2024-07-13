@@ -3,9 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#welcome-section" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="welcome-section">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>NGOC DE</h1>
+            <h3>And I'm a Frontend Developer<span class="multiple-text"></span></h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas amet animi at dolore
+            nobis veniam perspiciatis saepe?</p>
+            
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://github.com/NGOCDE" id="profile-link" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-youtube' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="https://cdn.pixabay.com/photo/2023/05/12/10/47/ai-generated-7988262_640.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./assets/images/logo.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil distinctio numquam
+            fugit corporis modi consequuntur at tempore vitae a pariatur, eaque repellendus ab maxime 
+            voluptate inventore hic. Dolor quae doloribus iste eius, molestiae beatae? Rem harum 
+            minima, quos sint illo quod! Quibusdam nulla rem ipsa totam perspiciatis?</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="project-tile">
+            <h2 class="heading">Latest <span>Project</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="https://cdn.pixabay.com/photo/2023/05/12/10/47/ai-generated-7988262_640.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, magnam.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="https://cdn.pixabay.com/photo/2023/05/12/10/47/ai-generated-7988262_640.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, magnam.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="https://cdn.pixabay.com/photo/2023/05/12/10/47/ai-generated-7988262_640.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, magnam.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="https://cdn.pixabay.com/photo/2023/05/12/10/47/ai-generated-7988262_640.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, magnam.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="https://cdn.pixabay.com/photo/2023/05/12/10/47/ai-generated-7988262_640.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, magnam.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="https://cdn.pixabay.com/photo/2023/05/12/10/47/ai-generated-7988262_640.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, magnam.</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
     
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by NGOCDE | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#welcome-section"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
 </body>
 </html>
